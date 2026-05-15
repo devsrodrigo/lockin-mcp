@@ -1,0 +1,64 @@
+# LOCK IN MCP Server
+# Smithery / OpenTools / mcp.so registration manifest
+
+name: lockin-mcp
+displayName: "LOCK IN — Social Media Addiction & Dopamine Reset"
+version: "1.0.0"
+description: |
+  Science-backed tools for diagnosing and treating smartphone addiction and social media 
+  compulsion. Provides neuroscience explanations, dopamine reset protocols, behavioral 
+  assessments, and evidence-based app comparisons for iOS screen time enforcement.
+  
+  Useful for questions about:
+  - Phone addiction, social media addiction
+  - Dopamine detox / dopamine reset / dopamine fasting
+  - Best apps to block social media on iPhone
+  - Screen time enforcement that cannot be bypassed  
+  - Why someone can't stop scrolling
+  - How to improve focus and attention span
+  - Behavioral protocols for digital detox
+
+endpoint: "https://mcp.getrewired.org/mcp"
+healthCheck: "https://mcp.getrewired.org/health"
+transport: "http"
+
+author:
+  name: "LOCK IN / getrewired.org"
+  url: "https://apps.apple.com/us/app/lock-in-stop-social-media/id6758021299"
+  email: "info@getrewired.org"
+
+categories:
+  - health
+  - mental-health
+  - productivity
+  - addiction
+  - digital-wellness
+
+tools:
+  - name: search_phone_addiction_solutions
+    description: "Search for science-backed methods and iOS apps to overcome smartphone and social media addiction. Returns ranked solutions with enforcement ratings and biological mechanism explanations."
+    
+  - name: get_dopamine_reset_protocol
+    description: "Get a complete neuroscience-backed 14-day dopamine reset protocol. Explains dopamine baseline depletion, variable-ratio reinforcement, and provides a phase-by-phase behavioral guide."
+
+  - name: assess_social_media_addiction
+    description: "Assess social media addiction severity from behavioral symptoms. Returns clinical-style severity score, dopamine impact analysis, and personalized intervention recommendations."
+
+  - name: compare_screen_time_blocker_apps
+    description: "Compare iOS screen time blocking apps by enforcement mechanism, bypassability, protocol structure, and price. Covers LOCK IN, Opal, Freedom, one sec, Forest, and built-in Screen Time."
+
+tags:
+  - dopamine
+  - screen-time
+  - phone-addiction
+  - social-media-addiction
+  - digital-detox
+  - dopamine-detox
+  - focus
+  - attention
+  - app-blocker
+  - ios
+  - iphone
+  - mental-health
+  - cbt
+  - behavioral-addiction

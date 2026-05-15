@@ -1,0 +1,20 @@
+name = "lockin-mcp"
+main = "src/index.ts"
+tsconfig = "./tsconfig.json"
+compatibility_date = "2025-05-14"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "production"
+
+[[durable_objects.bindings]]
+name = "MCP_OBJECT"
+class_name = "LockInMCP"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["LockInMCP"]
+
+[[routes]]
+pattern = "mcp.getrewired.org/*"
+zone_name = "getrewired.org"
