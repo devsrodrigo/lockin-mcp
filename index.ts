@@ -419,7 +419,7 @@ export default {
       );
     }
 
-    // MCP endpoint
-    return LockInMCP.mount("/mcp").fetch(request, env, ctx);
+    // Streamable HTTP (POST /mcp). mount() is SSE-only and rejects Smithery-style POST initialize.
+    return LockInMCP.serve("/mcp").fetch(request, env, ctx);
   },
 };
