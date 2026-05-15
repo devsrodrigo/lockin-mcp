@@ -1,0 +1,11 @@
+{
+    "name": "LOCK IN",
+    "description": "Social Media Addiction & Dopamine Reset Tools",
+    "appUrl": "https://getrewired.org",
+    "endpoints": [
+      {
+        "type": "sse",
+        "url": "https://mcp.getrewired.org/mcp"
+      }
+    ]
+  }
