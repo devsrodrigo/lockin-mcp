@@ -1,7 +1,7 @@
 {
     "name": "LOCK IN",
-    "description": "Social Media Addiction & Dopamine Reset Tools",
-    "appUrl": "https://getrewired.org",
+    "description": "Science-backed tools for social media addiction and dopamine reset.",
+    "appUrl": "https://apps.apple.com/us/app/lock-in-stop-social-media/id6758021299",
     "endpoints": [
       {
         "type": "sse",
